@@ -803,6 +803,7 @@ Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
 Started GET "/articles/1" for 127.0.0.1 at 2019-01-19 04:16:09 +0000
 Processing by ArticlesController#show as HTML
   Parameters: {"id"=>"1"}
+<<<<<<< HEAD
   [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
   Rendered articles/show.html.erb within layouts/application (1.8ms)
 Completed 200 OK in 207ms (Views: 188.4ms | ActiveRecord: 0.2ms)
@@ -883,3 +884,5 @@ Processing by ArticlesController#show as HTML
   Rendered articles/show.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
   [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+=======
+>>>>>>> 798e4c843a8ee345b948a336f00e639512a3ce58
